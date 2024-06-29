@@ -3,9 +3,10 @@ import { View, Text } from 'react-native';
 
 export default function Welcome() {
   return (
-    <View style={{ flex: 0.6, backgroundColor: '#F4CE14',}}>
+    <View style={{ flex: 0.7, backgroundColor: '#F4CE14', marginLeft: 250, marginRight: 250, borderRadius: 50 }}>
       <Text
         style={{
+          marginTop: 200,
           fontStyle: 'italic', 
           fontSize: 18,
           color: 'black',

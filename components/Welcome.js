@@ -6,7 +6,7 @@ export default function Welcome() {
     <View style={{ flex: 0.6, backgroundColor: '#F4CE14',}}>
       <Text
         style={{
-            
+          fontStyle: 'italic', 
           fontSize: 18,
           color: 'black',
           textAlign: 'center',

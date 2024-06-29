@@ -3,9 +3,10 @@ import { View, Text } from 'react-native';
 
 export default function LittleLemonFooter() {
   return (
-    <View style={{ flex: 0.15, backgroundColor: '#F4CE14', marginBottom: 10 }}>
+    <View style={{ flex:0.05, backgroundColor: '#F4CE14'}}>
       <Text
         style={{
+
           fontSize: 18,
           color: 'black',
           textAlign: 'center',

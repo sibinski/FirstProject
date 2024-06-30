@@ -1,18 +1,28 @@
 import * as React from 'react';
-import { View, Text } from 'react-native';
+import { ScrollView, Text, StyleSheet } from 'react-native';
 
 export default function LittleLemonFooter() {
   return (
-    <View style={{ flex: 0.05, backgroundColor: '', marginBottom: 5 }}>
+    <ScrollView style={footerStyles.container}>
       <Text
-        style={{
-
-          fontSize: 18,
-          color: 'black',
-          textAlign: 'center',
-        }}>
+        style={footerStyles.footerText}>
         All rights reserved by Little Lemon, 2024
       </Text>
-    </View>
-  );
-}
+    </ScrollView>
+  )
+};
+
+const footerStyles = StyleSheet.create({
+    container: {
+        flex: 1,
+        maxHeight: 30,
+        backgroundColor: '#EE9972',
+        marginTop: 325,
+    },
+    footerText:
+    {
+        fontSize: 18,
+        color: 'black',
+        textAlign: 'center',
+    },
+});
